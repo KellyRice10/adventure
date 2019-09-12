@@ -1,8 +1,8 @@
-package gardening;
+package yeeeee;
 
 import java.util.Scanner;
 
-public class gardenadventure {
+public class gardanant {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -28,18 +28,23 @@ public class gardenadventure {
 						System.out.println("Another brussel sprout fan! OMG we must unite! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
 						System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
 						ans = scan.nextInt();
+						//technically one ending
 						if(ans==6) {
 							System.out.println("ZUCCHINI FRIED IS LITERALLY SO AMAZING OMG!! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
 							System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
 							ans = scan.nextInt();
+							//technically another ending
 							if(ans==7) {
 								System.out.println("Green apples are so pretty and although some say they are sour... their taste buds are just WEAKKKK. green apple lovers are like da best peeps evs. BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
 								System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
 								ans = scan.nextInt();
+								//technically another ending
 								if(ans==8) {
 									System.out.println("Rasberries are like so pretty and they taste as good as they look. BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
 									System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
 									ans = scan.nextInt();
+									//technically another ending
+									
 									//moving onto flowers
 									if(ans==9) {
 										System.out.println("omg yay lets make this garden popping with color! serious question tho... roses or daisies?");
@@ -47,10 +52,14 @@ public class gardenadventure {
 										ans = scan.nextInt();
 										if(ans==10) {
 											System.out.println("donate your heart to medical research so we know what blackholes look like");
+											//A DEFINITE ENDING
 											if(ans==11) {
 												System.out.println("YAS MY FAVORITE... now our garden is like christmas colors! green and red! congrats!!!");
+												//A DEFINITE ENDING
 												if(ans==12) {
 													System.out.println("awwww wittle little baby daisies... adorableeeee... congrats on making your garden beautiful!!!");
+													//A DEFINITE ENDING
+													
 													//done with flowers
 						
 		} else if (ans == 2) {
@@ -59,6 +68,7 @@ public class gardenadventure {
 			ans = scan.nextInt();
 			if(ans==13) {
 				System.out.println("wow ok then... well mongolian elbows aren't needed in gardening so ig my time to talk with you is up");
+				//A DEFINITE ENDING
 				
 	}
 
