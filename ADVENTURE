@@ -1,87 +1,217 @@
-package yeeeee;
+
+package gardening;
 
 import java.util.Scanner;
 
-public class gardanant {
+public class gardenadventure {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("YOYOYOYOYO be a good hooman and plant some things to help out da environment won't ya?");
-		System.out.println("Enter 1 for yas queen or 2 for no...lameo");
-		
-		int ans = scan.nextInt();
-		
-		if(ans==1) {
-			System.out.println("Wow, humanity isn't doomed, thank you! So did ya'll wanna plant veggies or fruities?");
-			System.out.println("Enter 3 for dem veggies or 4 for los fruitiessssss");
-			ans = scan.nextInt();
-			if(ans==3) {
-				System.out.println("Awesome sauce cause fruits are like... w E i R d... so do ya wanna plant brussel sprouts OR zucchini?");
-				System.out.println("Enter 5 for da brussel sprouts or 6 for the zucchini");
-				ans = scan.nextInt();
-				if(ans==4) {
-					System.out.println("Fruits...um...ok... whatdya wanna plant? Green apples or rasberries (aka HEAVEN ON EARTH)");
-					System.out.println("Enter 7 for GREEEEEN APPLESSSS or 8 for RASBERRIESSSS");
-					ans = scan.nextInt();
-					if(ans==5) {
-						System.out.println("Another brussel sprout fan! OMG we must unite! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
-						System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
-						ans = scan.nextInt();
-						//technically one ending
-						if(ans==6) {
-							System.out.println("ZUCCHINI FRIED IS LITERALLY SO AMAZING OMG!! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
-							System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
-							ans = scan.nextInt();
-							//technically another ending
-							if(ans==7) {
-								System.out.println("Green apples are so pretty and although some say they are sour... their taste buds are just WEAKKKK. green apple lovers are like da best peeps evs. BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
-								System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
-								ans = scan.nextInt();
-								//technically another ending
-								if(ans==8) {
-									System.out.println("Rasberries are like so pretty and they taste as good as they look. BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
-									System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
-									ans = scan.nextInt();
-									//technically another ending
-									
-									//moving onto flowers
-									if(ans==9) {
-										System.out.println("omg yay lets make this garden popping with color! serious question tho... roses or daisies?");
-										System.out.println("Enter 11 for the jock of flowers: roses... or 12 for the babies of flowers: daisies...");
-										ans = scan.nextInt();
-										if(ans==10) {
-											System.out.println("donate your heart to medical research so we know what blackholes look like");
-											//A DEFINITE ENDING
-											if(ans==11) {
-												System.out.println("YAS MY FAVORITE... now our garden is like christmas colors! green and red! congrats!!!");
-												//A DEFINITE ENDING
-												if(ans==12) {
-													System.out.println("awwww wittle little baby daisies... adorableeeee... congrats on making your garden beautiful!!!");
-													//A DEFINITE ENDING
-													
-													//done with flowers
-						
-		} else if (ans == 2) {
-			System.out.println("YOU ARE LITERALLY A SELFISH PIECE OF TRASH WHOMST I HAVE NO RESPECT FOR SO IM YEETING YOU AWAY... cause I don't care");
-			System.out.println("Enter 1 to be a good noodle or 13 to be a mongolian elbow");
-			ans = scan.nextInt();
-			if(ans==13) {
-				System.out.println("wow ok then... well mongolian elbows aren't needed in gardening so ig my time to talk with you is up");
-				//A DEFINITE ENDING
-				
-	}
 
-}
+		Scanner scan = new Scanner(System.in);
+
+
+
+		System.out.println("YOYOYOYOYO be a good hooman and plant some things to help out da environment won't ya?");
+
+		System.out.println("Enter 1 for yas queen or 2 for no...lameo");
+
+
+
+		int ans = scan.nextInt();
+
+
+
+		if(ans==1) {
+
+			System.out.println("Wow, humanity isn't doomed, thank you! So did ya'll wanna plant veggies or fruities?");
+
+			System.out.println("Enter 3 for dem veggies or 4 for los fruitiessssss");
+
+			ans = scan.nextInt();
+
+			if(ans==3) {
+
+				System.out.println("Awesome sauce cause fruits are like... w E i R d... so do ya wanna plant brussel sprouts OR zucchini?");
+
+				System.out.println("Enter 5 for da brussel sprouts or 6 for the zucchini");
+
+				ans = scan.nextInt();
+
+				if(ans==4) {
+
+					System.out.println("Fruits...um...ok... whatdya wanna plant? Green apples or rasberries (aka HEAVEN ON EARTH)");
+
+					System.out.println("Enter 7 for GREEEEEN APPLESSSS or 8 for RASBERRIESSSS");
+
+					ans = scan.nextInt();
+
+					if(ans==5) {
+
+						System.out.println("Another brussel sprout fan! OMG we must unite! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
+
+						System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
+
+						ans = scan.nextInt();
+
+						//technically one ending
+
+						if(ans==6) {
+
+							System.out.println("ZUCCHINI FRIED IS LITERALLY SO AMAZING OMG!! BTW it's gonna take a bit to grow so do ya wanna make our garden perty and add some flowers?");
+
+							System.out.println("Enter 9 for OMG COLORS YES or 10 for im an emo loser... I don't need no color in ma life besides black...LIKE MY SOULLLL");
+
+							ans = scan.nextInt();
+
+							//technically another ending
+
+							if(ans==7) {
+
+								System.out.println("Green apples are so pretty and although some say they are sour... their taste buds are just WEAKKKK. green apple lovers are like da best peeps evs. So do you wanna make smth scrumptious with these delectable treats?");
+
+								System.out.println("Enter 14 for YES or 15 for nah fam");
+
+								ans = scan.nextInt();
+
+								if(ans==15) {
+
+									System.out.println("wow ok. LAME. so creative with your plain green apple... i mean there is nothing wrong with that... its just so B A S I C");
+
+									//A DEFINITE ENDING
+									if(ans==14) {
+
+										System.out.println("Yay! Time to head to the kitchen now with your basket of apples!");
+
+										System.out.println("Enter 16 for green apple pie or 17 for applesauce");
+
+										ans = scan.nextInt();
+										if(ans==16) {
+
+											System.out.println("MMMMMM MUY DELICIOSO!!! Thanks for planting in your very own garden to make your very own fresh delicacies!");
+
+											//A DEFINITE ENDING
+											if(ans==17) {
+
+												System.out.println("uh ok. idk how good dat applesauce is gonna be if its made form green apples... but enjoy your new concotion wizard");
+												//A DEFINITE ENDING
+												if(ans==8) {
+
+													System.out.println("Rasberries are like so pretty and they taste as good as they look. So do you wanna make smth scrumptious with these delectable treats?");
+
+													System.out.println("Enter 18 for YAS or 19 for imma pass rn");
+
+													ans = scan.nextInt();
+
+													if(ans==18) {
+
+														System.out.println("Sweet! lets make our way down to la cocinaaaaaa (aka kitchen... uncultured hooman)");
+
+														System.out.println("Enter 20 for rasberry pie or 21 for rasberry jam");
+
+														ans = scan.nextInt();
+														if(ans==20) {
+
+															System.out.println("OOO that sounds so good rn!! Thanks for planting in your very own garden to make your very own fresh delicacies!");
+
+															//A DEFINITE ENDING
+															if(ans==21) {
+
+																System.out.println("I like hate toast and idk what else you would put jam on so this would be useless for me but um have fun with it!!! Thanks for planting in your very own garden to make your very own fresh delicacies!");
+
+																//A DEFINITE ENDING
+
+																//technically another ending
+
+
+
+																//moving onto flowers
+
+																if(ans==9) {
+
+																	System.out.println("omg yay lets make this garden popping with color! serious question tho... roses or daisies?");
+
+																	System.out.println("Enter 11 for the jock of flowers: roses... or 12 for the babies of flowers: daisies...");
+
+																	ans = scan.nextInt();
+
+																	if(ans==10) {
+
+																		System.out.println("donate your heart to medical research so we know what blackholes look like");
+
+																		//A DEFINITE ENDING
+
+																		if(ans==11) {
+
+																			System.out.println("YAS MY FAVORITE... now our garden is like christmas colors! green and red! congrats!!!");
+
+																			//A DEFINITE ENDING
+
+																			if(ans==12) {
+
+																				System.out.println("awwww wittle little baby daisies... adorableeeee... congrats on making your garden beautiful!!!");
+
+																				//A DEFINITE ENDING
+																				if(ans==13) {
+
+																					System.out.println("wow ok then... well mongolian elbows aren't needed in gardening so ig my time to talk with you is up");
+
+																					//A DEFINITE ENDING
+
+
+
+																				//done with flowers
+
+
+
+																			} else if (ans == 2) {
+
+																				System.out.println("YOU ARE LITERALLY A SELFISH PIECE OF TRASH WHOMST I HAVE NO RESPECT FOR SO IM YEETING YOU AWAY... cause I don't care");
+
+																				System.out.println("Enter 1 to be a good noodle or 13 to be a mongolian elbow");
+
+																				ans = scan.nextInt();
+
+																				/*if(ans==13) {
+
+																					System.out.println("wow ok then... well mongolian elbows aren't needed in gardening so ig my time to talk with you is up");
+
+																					//A DEFINITE ENDING*/
+
+
+
+																				}
+
+
+
+																			}
+
+																		}
+
+																	}
+
+																}
+
+															}
+
+														}
+
+													}
+
+												}
+
+											}
+
+										}
+
 									}
+
 								}
+
 							}
 						}
 					}
 				}
 			}
 		}
-	}
-}
 	}
 }
